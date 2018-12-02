@@ -12,6 +12,6 @@ public class Main implements Launcher {
 
     @Override
     public void create() {
-
+        System.out.println("Create çalıştı");
     }
 }
