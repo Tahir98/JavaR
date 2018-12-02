@@ -16,5 +16,6 @@ public class Main implements Launcher {
     public void create() {
         System.out.println("Create çalıştı");
         x = 15;
+        System.out.println("x:"+x);
     }
 }
