@@ -1,8 +1,7 @@
 package com.tahirkaplan;
 
-public class Main implements Launcher {
+public class Main {
     int x;
-
 
     public static void main(String[] args){
         System.out.println("Git Projesi");
@@ -12,7 +11,7 @@ public class Main implements Launcher {
         main.create();
     }
 
-    @Override
+
     public void create() {
         System.out.println("Create çalıştı");
         x = 15;
