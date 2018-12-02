@@ -1,6 +1,6 @@
 package com.tahirkaplan;
 
-public class Main {
+public class Main implements Launcher {
     int x;
 
     public static void main(String[] args){
@@ -11,7 +11,7 @@ public class Main {
         main.create();
     }
 
-
+    @Override
     public void create() {
         System.out.println("Create çalıştı");
         x = 15;
